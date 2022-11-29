@@ -34,8 +34,10 @@ if __name__ == '__main__':
     # 获取设备
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     print(device)
+
     # mtcnn模型加载【设置网络参数，进行人脸检测】
     mtcnn = MTCNN(min_face_size=12, thresholds=[0.2, 0.2, 0.3], keep_all=True, device=device)
+
     # InceptionResnetV1模型加载【用于获取人脸特征向量】
     resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
     MatchThreshold = 0.8  # 人脸特征向量匹配阈值设置
@@ -44,6 +46,7 @@ if __name__ == '__main__':
     faces_emb, img = load_known_faces('images.jpg', mtcnn, resnet)  # 待检测人物图
     isExistDst = match_faces(faces_emb, known_faces_emb, MatchThreshold)  # 人脸匹配
     print("设置的人脸特征向量匹配阈值为：", MatchThreshold)
+
     if isExistDst:
         boxes, prob, landmarks = mtcnn.detect(img, landmarks=True)  # 返回人脸框，概率，5个人脸关键点
         print('由于欧氏距离小于匹配阈值，故匹配')

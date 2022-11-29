@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de2bf41d-6860-4f6f-b9b3-3381bec20cd3" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cv_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ALEXnET.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Net_Learn.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_detect/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_detect/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_detect/cv_detect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_detect/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/OIP.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/download.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/face_recognition_framework/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognition_framework/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NetLearn/UNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ALEXnET.py" beforeDir="false" afterPath="$PROJECT_DIR$/NetLearn/AlexNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Net_Learn.md" beforeDir="false" afterPath="$PROJECT_DIR$/NetLearn/Net_Learn.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recognition/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recognition/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +29,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2IAFF9g7Hz1Oe6oA2vkThrXu6KB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -73,6 +59,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Monty _L\Documents\GitHub\cv_test\NetLearn" />
       <recent name="C:\Users\Monty _L\Documents\GitHub\cv_test" />
       <recent name="C:\Users\Monty _L\Documents\GitHub\cv_test\face_recognition" />
     </key>
@@ -87,6 +74,7 @@
       <updated>1669616375124</updated>
       <workItem from="1669616376440" duration="7730000" />
       <workItem from="1669624758845" duration="6620000" />
+      <workItem from="1669693852900" duration="4476000" />
     </task>
     <servers />
   </component>
@@ -109,9 +97,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/cv_test$cv_detect.coverage" NAME="cv_detect 覆盖结果" MODIFIED="1669616420825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face_detect" />
-    <SUITE FILE_PATH="coverage/cv_test$main.coverage" NAME="main 覆盖结果" MODIFIED="1669623214279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face_recognition" />
+    <SUITE FILE_PATH="coverage/cv_test$main.coverage" NAME="main 覆盖结果" MODIFIED="1669693879671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/face_recognition" />
     <SUITE FILE_PATH="coverage/cv_test$ALEXnET.coverage" NAME="ALEXnET 覆盖结果" MODIFIED="1669633017035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/cv_test$library.coverage" NAME="library 覆盖结果" MODIFIED="1669632773112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cv_test$UNet.coverage" NAME="UNet 覆盖结果" MODIFIED="1669695890213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NetLearn" />
     <SUITE FILE_PATH="coverage/cv_test$test.coverage" NAME="test 覆盖结果" MODIFIED="1669628327158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
